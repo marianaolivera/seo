@@ -1,0 +1,27 @@
+.section--work{
+    font-family:'Finger Paint', cursive;
+    font-size: 20px;
+    color:rgb(17, 17, 17);
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom:8px;
+    }
+
+    .img-fluid{
+    height: 150px;
+    width: 200px;
+    }
+    @media(min-width: 500px){
+        .img-fluid{
+        height: 200px;
+        width: 200px;
+
+        }   
+    }
+    
+    @media(min-width: 500px){
+        .section--work{
+        font-size: 40px;
+      
+        }
+      }

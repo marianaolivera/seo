@@ -1,0 +1,12 @@
+.seccion_about3{
+    font-family:'Merriweather',serif ;
+    font-size: 14px;
+    color:$color-3;
+    text-align: left;
+    }
+    @media(min-width: 500px) {
+    .seccion_about3 {
+      padding: 10px;
+      font-size: 25px;
+    }
+    }

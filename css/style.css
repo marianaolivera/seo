@@ -1,0 +1,231 @@
+#navegador ul {
+  list-style-type: none;
+  text-align: center; }
+
+#navegador li {
+  text-align: left;
+  margin: 20px 10px 0px 0px; }
+
+@media (min-width: 500px) {
+  #navegador li a {
+    transition: color 500ms; } }
+
+#navegador li a:hover {
+  color: aqua; }
+
+@media screen and (min-width: 500px) {
+  #navegador ul {
+    list-style-type: none;
+    text-align: center;
+    margin-top: 2rem; }
+  #navegador li {
+    display: inline;
+    text-align: center;
+    margin: 10px 10px 0px 0px; }
+  #navegador li a {
+    padding: 2px 6px 2px 6px;
+    color: #666;
+    background-color: #f5f0f0;
+    border-radius: 50px;
+    border: 3px solid #b2d8d3;
+    text-decoration: none; }
+  #navegador {
+    position: fixed;
+    background-image: url(../acuarela-fondo.jpg);
+    background-attachment: fixed;
+    background-position: center;
+    z-index: 1000;
+    top: 0;
+    max-width: 1500px;
+    width: 100%; }
+  #navegador :hover {
+    -webkit-transform: scale(1.2);
+    transform: scale(1.2); } }
+
+.seccion_titulo {
+  padding-left: 0%;
+  color: black;
+  font-style: normal;
+  font-family: 'Merriweather', serif;
+  font-size: 19px;
+  background-image: url(../logo.jpg);
+  background-size: auto;
+  background-repeat: no-repeat; }
+
+@media (min-width: 500px) {
+  .seccion_titulo {
+    font-size: 30px;
+    padding-top: 9rem;
+    padding-left: 0%;
+    background-position: 3rem; } }
+
+.subtitulo {
+  font-size: 18px;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-weight: bold; }
+
+@media (min-width: 500px) {
+  .subtitulo {
+    font-size: 28px;
+    font-style: normal;
+    padding-top: 1rem; } }
+
+.Pie_defoto {
+  font-size: 11px; }
+
+@media (min-width: 500px) {
+  .Pie_defoto {
+    font-size: 15px; } }
+
+.seccion_about {
+  font-family: 'Merriweather',serif;
+  font-size: 14px;
+  color: black;
+  text-align: center;
+  background-image: url(../acuarela-fondo.jpg);
+  background-attachment: fixed;
+  background-position: center;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-left: 40px;
+  padding-right: 40px; }
+
+@media (min-width: 500px) {
+  .seccion_about {
+    padding: 2rem;
+    font-size: 24px;
+    margin-top: 1rem; } }
+
+.seccion_about2 {
+  max-width: 1000px;
+  margin: 20px auto;
+  display: grid;
+  grid-gap: 20px;
+  font-family: 'Merriweather',serif;
+  font-size: 14px;
+  color: black;
+  text-align: center;
+  background-position: center;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-left: 40px;
+  padding-right: 40px; }
+
+@media (min-width: 500px) {
+  .seccion_about2 {
+    font-size: 25px;
+    margin-top: 0%; } }
+
+.seccion_about3 {
+  font-family: 'Merriweather',serif;
+  font-size: 14px;
+  color: black;
+  text-align: left; }
+
+@media (min-width: 500px) {
+  .seccion_about3 {
+    padding: 10px;
+    font-size: 25px; } }
+
+.section--work {
+  font-family: 'Finger Paint', cursive;
+  font-size: 20px;
+  color: #111111;
+  text-align: center;
+  padding-top: 20px;
+  padding-bottom: 8px; }
+
+.img-fluid {
+  height: 150px;
+  width: 200px; }
+
+@media (min-width: 500px) {
+  .img-fluid {
+    height: 200px;
+    width: 200px; } }
+
+@media (min-width: 500px) {
+  .section--work {
+    font-size: 40px; } }
+
+.gallery__item {
+  padding: 5px;
+  padding-top: 50px;
+  max-width: 1024px;
+  margin-left: 80px;
+  margin-right: 80px;
+  position: relative;
+  vertical-align: middle 0 1410 41 00044410 410; }
+
+@media (min-width: 500px) {
+  .gallery__item {
+    padding: 60px;
+    padding-top: 0; } }
+
+.gallery__item:hover {
+  -webkit-transform: scale(1.1);
+  transform: scale(1.1); }
+
+.gallery__item {
+  overflow: hidden; }
+
+.gallery__img {
+  height: 150px;
+  width: 200px; }
+
+@media (min-width: 500px) {
+  .gallery__img {
+    height: 800px;
+    width: 800px; } }
+
+.carousel-item {
+  height: 400px;
+  width: 400px; }
+
+@media (min-width: 500px) {
+  .carousel-item {
+    height: 700px;
+    width: 700px;
+    padding-top: 50px;
+    padding-bottom: 0%;
+    max-width: 1024px;
+    margin-left: 350px;
+    margin-right: 200px;
+    position: relative;
+    vertical-align: middle 0 1410 41 00044410 410; } }
+
+@media (min-width: 500px) {
+  iframe {
+    width: 560px;
+    height: 315px; } }
+
+.iframe {
+  width: 200px;
+  height: 100px; }
+
+.seccion_contacto {
+  background-image: url(../acuarela-fondo.jpg);
+  background-position: center;
+  max-width: 1550px; }
+
+.contact__text {
+  text-align: center;
+  font-size: 11px;
+  font-family: sans-serif;
+  font-weight: lighter;
+  margin: 3px; }
+
+@media (min-width: 500px) {
+  .contact__text a {
+    transition: color 500ms; } }
+
+.contact__text:hover {
+  -webkit-transform: scale(1.1);
+  transform: scale(1.1); }
+
+@media (min-width: 500px) {
+  .contact__text {
+    font-size: 15px;
+    margin: 3px; }
+  .contact__text:hover {
+    color: #328ec4; } }

@@ -1,0 +1,21 @@
+.seccion_about2{
+    max-width: 1000px;
+    margin: 20px auto;
+    display: grid;
+    grid-gap: 20px;
+    font-family:'Merriweather',serif ;
+    font-size: 14px;
+    color:$color-3;
+      text-align: center;
+      background-position: center;
+      padding-top: 20px;
+      padding-bottom: 20px;
+      padding-left: 40px;
+      padding-right: 40px; 
+    }
+    @media(min-width: 500px) {
+    .seccion_about2{
+      font-size:25px; 
+      margin-top: 0%;
+    }
+    }

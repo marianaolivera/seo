@@ -1,0 +1,22 @@
+.seccion_about{
+    font-family:'Merriweather',serif ;
+    font-size: 14px;
+    color:$color-3;
+    text-align: center;
+    background-image:url(../acuarela-fondo.jpg);
+    background-attachment: fixed;
+    background-position: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 40px;
+    padding-right: 40px;
+    }
+    @media(min-width: 500px) {
+    .seccion_about {
+      padding: 2rem;
+      font-size: 24px;
+      margin-top: 1rem;
+    
+    
+    }
+    } 

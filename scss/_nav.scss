@@ -1,0 +1,58 @@
+#navegador ul{
+  list-style-type: none;
+  text-align: center;  
+ 
+}
+#navegador li{
+ text-align: left;
+ margin: 20px 10px 0px 0px;
+
+}
+
+
+@media(min-width: 500px){
+  #navegador li a {
+  transition: color 500ms;
+  
+}
+}
+#navegador li a:hover {
+ color:$color-second;
+}
+
+@media screen and (min-width: 500px){
+  #navegador ul{
+    list-style-type: none;
+    text-align: center;  
+    margin-top: 2rem;
+  
+  }
+  #navegador li{
+    display: inline;
+    text-align: center;
+    margin: 10px 10px 0px 0px;
+    }
+  #navegador li a {
+    padding: 2px 6px 2px 6px;
+    color: #666;
+    background-color: #f5f0f0;
+    border-radius: 50px;
+    border: 3px solid rgb(178, 216, 211);
+    text-decoration: none;
+  }
+  #navegador {
+    position:fixed;
+    background-image:url(../acuarela-fondo.jpg);
+    background-attachment: fixed;
+    background-position: center;
+    z-index:1000;
+    top:0;
+    max-width:1500px;
+    width: 100%;
+ 
+  }
+#navegador :hover{
+  -webkit-transform:scale(1.2);transform:scale(1.2);
+}
+}
+ 
