@@ -13,21 +13,17 @@
       padding-top: 0;
     }
   }
-  
-  .gallery__item:hover {
-  -webkit-transform:scale(1.1);transform:scale(1.1);
-  }
   .gallery__item {
   overflow:hidden;
   }
   .gallery__img{
-    height: 150px;
+    height: 280px;
     width: 200px;
     }
     @media(min-width: 500px){
       .gallery__img{
-        height: 800px;
-        width: 800px;
+        height: 700px;
+        width: 700px;
       }
     }
     .carousel-item{

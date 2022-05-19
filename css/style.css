@@ -31,7 +31,7 @@
     text-decoration: none; }
   #navegador {
     position: fixed;
-    background-image: url(../acuarela-fondo.jpg);
+    background-image: url(../acuarela-fondo.webp);
     background-attachment: fixed;
     background-position: center;
     z-index: 1000;
@@ -48,7 +48,7 @@
   font-style: normal;
   font-family: 'Merriweather', serif;
   font-size: 19px;
-  background-image: url(../logo.jpg);
+  background-image: url(../logo.webp);
   background-size: auto;
   background-repeat: no-repeat; }
 
@@ -82,7 +82,7 @@
   font-size: 14px;
   color: black;
   text-align: center;
-  background-image: url(../acuarela-fondo.jpg);
+  background-image: url(../acuarela-fondo.webp);
   background-attachment: fixed;
   background-position: center;
   padding-top: 20px;
@@ -162,21 +162,17 @@
     padding: 60px;
     padding-top: 0; } }
 
-.gallery__item:hover {
-  -webkit-transform: scale(1.1);
-  transform: scale(1.1); }
-
 .gallery__item {
   overflow: hidden; }
 
 .gallery__img {
-  height: 150px;
+  height: 280px;
   width: 200px; }
 
 @media (min-width: 500px) {
   .gallery__img {
-    height: 800px;
-    width: 800px; } }
+    height: 700px;
+    width: 700px; } }
 
 .carousel-item {
   height: 400px;
@@ -204,7 +200,7 @@
   height: 100px; }
 
 .seccion_contacto {
-  background-image: url(../acuarela-fondo.jpg);
+  background-image: url(../acuarela-fondo.webp);
   background-position: center;
   max-width: 1550px; }
 
